@@ -1,0 +1,140 @@
+            *{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Playpen Sans', cursive;
+}
+.fnav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 6px;
+    color: white;
+    background-color: rgb(42,42,68);
+}
+#logo{
+    color: rgb(235, 50, 50);
+    font-style: none;
+    padding-top: 3px;
+    margin: 10px;
+    font-size: 30px;
+}
+.fnav .left{
+    display: flex;
+    margin-top: 10px;
+}
+.left img{
+    width: 22%;
+}
+.left input{
+    margin-inline: 11px;
+    width: 420px;
+    height: 33px;
+    border: none;
+    outline: none;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 2px;
+}
+.fnav .right{
+    display: flex;
+    margin-top: 16px;
+}
+.right p{
+  margin-inline: 22px;
+  font-size: 22px;
+}
+.right button{
+    margin-inline: 22px;
+    width: 80px;
+    height: 27px;
+    border: none;
+    border-radius: 2px;
+    background-color: rgb(244,69,98);
+    color: white;
+}
+.right i{
+    margin-inline: 22px;
+    font-size: 22px;
+}
+.sec-nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 9px;
+    background-color: rgb(26,26,48);
+    color: white;
+}
+.sec-nav .s-left{
+    display: flex;
+
+}
+.sec-nav p:hover{
+    color: rgb(245, 70 , 99);
+    cursor: pointer;
+    font-weight: 600;
+}
+.s-left p{
+    margin-inline-start: 16px;
+}
+.s-right p{
+    margin-inline-start: 16px;
+}
+.sec-nav .s-right{
+    display: flex;
+    
+}
+.main img{
+    width: 100%;
+}
+.containers h2{
+  text-align: center;
+  padding: 22px;
+}
+.containers .card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.card img{
+    width: 16%;
+    margin-block: 15px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.banner img{
+    width: 100%;
+    margin-top: 44px;
+
+}
+.premiere{
+    background-color: rgb(8,8,19);
+    color: white;
+    padding: 33px;
+    margin-top: 44px;
+}
+.containers.card{
+    margin-top: 11px;
+
+}
+.footer{
+    background-color: white;
+    padding: 33px;
+    margin-top: 44px;
+}
+.footer img{
+    width: 22%;
+    margin-left: 39%;
+    
+}
+
+.footer .icon{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}  
+.icon img{
+    margin-inline: 22px;
+    justify-content: center;
+    justify-content: space-around;
+    width: 50px;
+}
